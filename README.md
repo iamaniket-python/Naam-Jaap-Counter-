@@ -28,4 +28,4 @@ You can increment, decrement, and reset the counter with a clean user interface.
 1. Clone or download the repository:
 
 ```bash
-git clone https://github.com/yourusername/counter-app.git
+[git clone https://github.com/yourusername/counter-app.git](https://github.com/iamaniket-python/Naam-Jaap-Counter-.git)
