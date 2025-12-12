@@ -1,0 +1,69 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body background */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+
+/* Counter container */
+.counter-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.counter-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Display */
+.counter-display {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: orange;
+}
+
+/* Buttons */
+.counter-buttons .btn {
+  padding: 15px 25px;
+  font-size: 25px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  color: #fff;
+}
+
+/* Specific button colors */
+#plus {
+  background-color: #4caf50; /* Green */
+}
+
+#minus {
+  background-color: #f44336; /* Red */
+}
+
+#reset {
+  background-color: #2196f3; /* Blue */
+}
+
+/* Hover effect */
+.counter-buttons .btn:hover {
+  transform: scale(1.1);
+}
